@@ -3,6 +3,9 @@
 #include "print.h"
 #define MOON_LED_LEVEL LED_LEVEL
 #define ML_SAFE_RANGE SAFE_RANGE
+#ifndef ZSA_SAFE_RANGE
+#define ZSA_SAFE_RANGE SAFE_RANGE
+#endif
 
 
 // Persistent config

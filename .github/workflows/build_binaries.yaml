@@ -11,7 +11,7 @@ jobs:
     uses: qmk/.github/.github/workflows/qmk_userspace_build.yml@main
     with:
       qmk_repo: zsa/qmk_firmware
-      qmk_ref: firmware24
+      qmk_ref: firmware25
 
   publish:
     name: 'QMK Userspace Publish'
